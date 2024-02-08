@@ -1,0 +1,6 @@
+top_side = 10
+bottom_side = 20
+height = 5
+
+# 台形の面積
+print(str((top_side+bottom_side)*height/2)+"㎠")
