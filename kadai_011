@@ -1,15 +1,11 @@
 # リストの作成
 list = ["水","金","地","火","木","土","天","海","冥"]
 
-# カウンタ変数を用意する
-i = 1
+for lists in list:
+  print(lists)
 
-# カウンタの数字が3になるまで、繰り返す
-while i != 3:
+num = 0
 
-# listの要素を順番に出力する
-  for lists in list:
-    print(lists)
-
-# カウンタ変数の値を1増やす  
-  i=i+1
+while num != 9:
+  print(list[num])
+  num = num + 1
