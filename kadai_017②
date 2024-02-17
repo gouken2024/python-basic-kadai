@@ -10,12 +10,12 @@ class Human:
     else:
       print("あなたは大人ではありません")
 
-human1 = Human("侍太郎",25)
-human2 = Human("侍次郎",23)
-human3 = Human("侍三郎",20)
-human4 = Human("侍四郎",18)
+human = {}
 
-human1.check_adult()
-human2.check_adult()
-human3.check_adult()
-human4.check_adult()
+human[1] = Human("侍太郎",25)
+human[2] = Human("侍次郎",23)
+human[3] = Human("侍三郎",20)
+human[4] = Human("侍四郎",18)
+
+for i in range(1, 5):
+  human[i].check_adult()
